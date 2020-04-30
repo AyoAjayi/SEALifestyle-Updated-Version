@@ -13,6 +13,10 @@
 		11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11063F681EC0EECC0033EE6D /* Assets.xcassets */; };
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
+		3B922ABF245AA28200698495 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922ABE245AA28200698495 /* SignUpViewController.swift */; };
+		3B922AC1245AA29700698495 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922AC0245AA29700698495 /* LoginViewController.swift */; };
+		3B922AC3245AA6E100698495 /* MealGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922AC2245AA6E100698495 /* MealGridViewController.swift */; };
+		3B922AC5245AA96D00698495 /* MealViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922AC4245AA96D00698495 /* MealViewCell.swift */; };
 		3E39FB68FA7CEAF149263F33 /* Pods_Vision_ML_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67A4EB000C01BD7153F8276 /* Pods_Vision_ML_Example.framework */; };
 		C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
@@ -27,6 +31,10 @@
 		11063F6D1EC0EECC0033EE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B922ABE245AA28200698495 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3B922AC0245AA29700698495 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B922AC2245AA6E100698495 /* MealGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealGridViewController.swift; sourceTree = "<group>"; };
+		3B922AC4245AA96D00698495 /* MealViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewCell.swift; sourceTree = "<group>"; };
 		7EEC257D9F6FBCF1F8002CBD /* Pods-Vision+ML Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision+ML Example.debug.xcconfig"; path = "Target Support Files/Pods-Vision+ML Example/Pods-Vision+ML Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A67A4EB000C01BD7153F8276 /* Pods_Vision_ML_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vision_ML_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9558E70A9563BA000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -85,7 +93,11 @@
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */,
 				11063F651EC0EECC0033EE6D /* Main.storyboard */,
+				3B922AC2245AA6E100698495 /* MealGridViewController.swift */,
+				3B922ABE245AA28200698495 /* SignUpViewController.swift */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
+				3B922AC0245AA29700698495 /* LoginViewController.swift */,
+				3B922AC4245AA96D00698495 /* MealViewCell.swift */,
 			);
 			path = "Vision+ML Example";
 			sourceTree = "<group>";
@@ -246,10 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B922AC1245AA29700698495 /* LoginViewController.swift in Sources */,
 				C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
+				3B922AC3245AA6E100698495 /* MealGridViewController.swift in Sources */,
 				11063F621EC0EECC0033EE6D /* AppDelegate.swift in Sources */,
+				3B922ABF245AA28200698495 /* SignUpViewController.swift in Sources */,
+				3B922AC5245AA96D00698495 /* MealViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
