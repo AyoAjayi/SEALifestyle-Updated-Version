@@ -150,15 +150,15 @@ class MealGridViewController: UIViewController, UICollectionViewDelegate, UIColl
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let cell = sender as! UICollectionViewCell
-//        let indexPath = collectionView.indexPath(for: cell)!
-//        let food = foodData[indexPath.row]
-//
-//        let ingredientsViewController = segue.destination as! IngredientsViewController
-//        ingredientsViewController.food = food
-//        ingredientsViewController.baseUrlImage = baseUrlImage
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let food = foodData[indexPath.row]
+
+        let ingredientsViewController = segue.destination as! IngredientsTableViewController
+        ingredientsViewController.food = food
+        ingredientsViewController.baseUrlImage = baseUrlImage
+    }
 
 
 }

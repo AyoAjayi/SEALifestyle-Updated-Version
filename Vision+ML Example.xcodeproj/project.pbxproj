@@ -13,6 +13,12 @@
 		11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11063F681EC0EECC0033EE6D /* Assets.xcassets */; };
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
+		3B889291245CB92C006C2D1D /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889290245CB92C006C2D1D /* NutritionViewController.swift */; };
+		3B889293245CB941006C2D1D /* NutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889292245CB941006C2D1D /* NutritionCell.swift */; };
+		3B889295245CB954006C2D1D /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889294245CB954006C2D1D /* CookViewController.swift */; };
+		3B889297245CB965006C2D1D /* CookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889296245CB965006C2D1D /* CookCell.swift */; };
+		3B8DA939245C98EE00AA9E6B /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DA938245C98EE00AA9E6B /* IngredientsTableViewController.swift */; };
+		3B8DA93B245C9B5C00AA9E6B /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DA93A245C9B5C00AA9E6B /* IngredientsCell.swift */; };
 		3B922ABF245AA28200698495 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922ABE245AA28200698495 /* SignUpViewController.swift */; };
 		3B922AC1245AA29700698495 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922AC0245AA29700698495 /* LoginViewController.swift */; };
 		3B922AC3245AA6E100698495 /* MealGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922AC2245AA6E100698495 /* MealGridViewController.swift */; };
@@ -31,6 +37,12 @@
 		11063F6D1EC0EECC0033EE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B889290245CB92C006C2D1D /* NutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
+		3B889292245CB941006C2D1D /* NutritionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCell.swift; sourceTree = "<group>"; };
+		3B889294245CB954006C2D1D /* CookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
+		3B889296245CB965006C2D1D /* CookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookCell.swift; sourceTree = "<group>"; };
+		3B8DA938245C98EE00AA9E6B /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		3B8DA93A245C9B5C00AA9E6B /* IngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
 		3B922ABE245AA28200698495 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3B922AC0245AA29700698495 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3B922AC2245AA6E100698495 /* MealGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealGridViewController.swift; sourceTree = "<group>"; };
@@ -93,11 +105,17 @@
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */,
 				11063F651EC0EECC0033EE6D /* Main.storyboard */,
+				3B889290245CB92C006C2D1D /* NutritionViewController.swift */,
+				3B889292245CB941006C2D1D /* NutritionCell.swift */,
+				3B889294245CB954006C2D1D /* CookViewController.swift */,
+				3B889296245CB965006C2D1D /* CookCell.swift */,
+				3B8DA93A245C9B5C00AA9E6B /* IngredientsCell.swift */,
 				3B922AC2245AA6E100698495 /* MealGridViewController.swift */,
 				3B922ABE245AA28200698495 /* SignUpViewController.swift */,
-				C82A1C951F1809F5005996F6 /* Supporting Files */,
 				3B922AC0245AA29700698495 /* LoginViewController.swift */,
+				3B8DA938245C98EE00AA9E6B /* IngredientsTableViewController.swift */,
 				3B922AC4245AA96D00698495 /* MealViewCell.swift */,
+				C82A1C951F1809F5005996F6 /* Supporting Files */,
 			);
 			path = "Vision+ML Example";
 			sourceTree = "<group>";
@@ -258,7 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B889291245CB92C006C2D1D /* NutritionViewController.swift in Sources */,
 				3B922AC1245AA29700698495 /* LoginViewController.swift in Sources */,
+				3B889293245CB941006C2D1D /* NutritionCell.swift in Sources */,
+				3B889297245CB965006C2D1D /* CookCell.swift in Sources */,
+				3B889295245CB954006C2D1D /* CookViewController.swift in Sources */,
+				3B8DA939245C98EE00AA9E6B /* IngredientsTableViewController.swift in Sources */,
+				3B8DA93B245C9B5C00AA9E6B /* IngredientsCell.swift in Sources */,
 				C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
