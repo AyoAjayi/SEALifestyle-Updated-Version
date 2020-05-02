@@ -17,6 +17,8 @@
 		3B889293245CB941006C2D1D /* NutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889292245CB941006C2D1D /* NutritionCell.swift */; };
 		3B889295245CB954006C2D1D /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889294245CB954006C2D1D /* CookViewController.swift */; };
 		3B889297245CB965006C2D1D /* CookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889296245CB965006C2D1D /* CookCell.swift */; };
+		3B889299245CDEB4006C2D1D /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889298245CDEB4006C2D1D /* FoodViewController.swift */; };
+		3B88929B245CDEDF006C2D1D /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B88929A245CDEDF006C2D1D /* FoodCell.swift */; };
 		3B8DA939245C98EE00AA9E6B /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DA938245C98EE00AA9E6B /* IngredientsTableViewController.swift */; };
 		3B8DA93B245C9B5C00AA9E6B /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DA93A245C9B5C00AA9E6B /* IngredientsCell.swift */; };
 		3B922ABF245AA28200698495 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B922ABE245AA28200698495 /* SignUpViewController.swift */; };
@@ -41,6 +43,8 @@
 		3B889292245CB941006C2D1D /* NutritionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCell.swift; sourceTree = "<group>"; };
 		3B889294245CB954006C2D1D /* CookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
 		3B889296245CB965006C2D1D /* CookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookCell.swift; sourceTree = "<group>"; };
+		3B889298245CDEB4006C2D1D /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		3B88929A245CDEDF006C2D1D /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		3B8DA938245C98EE00AA9E6B /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
 		3B8DA93A245C9B5C00AA9E6B /* IngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
 		3B922ABE245AA28200698495 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				11063F611EC0EECC0033EE6D /* AppDelegate.swift */,
+				3B889298245CDEB4006C2D1D /* FoodViewController.swift */,
+				3B88929A245CDEDF006C2D1D /* FoodCell.swift */,
 				11063F631EC0EECC0033EE6D /* ImageClassificationViewController.swift */,
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */,
@@ -277,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B889291245CB92C006C2D1D /* NutritionViewController.swift in Sources */,
+				3B88929B245CDEDF006C2D1D /* FoodCell.swift in Sources */,
+				3B889299245CDEB4006C2D1D /* FoodViewController.swift in Sources */,
 				3B922AC1245AA29700698495 /* LoginViewController.swift in Sources */,
 				3B889293245CB941006C2D1D /* NutritionCell.swift in Sources */,
 				3B889297245CB965006C2D1D /* CookCell.swift in Sources */,
