@@ -42,7 +42,7 @@ class NutritionViewController: UIViewController, UITableViewDataSource, UITableV
     func nutrientData(){
         let foodID = food["id"] as! Int
         let FoodID = String(foodID)
-        let url = URL(string: "https://api.spoonacular.com/recipes/" + FoodID + "/nutritionWidget.json?apiKey=127eb17b57ce4adc9b64e59d0e660990")!
+        let url = URL(string: "https://api.spoonacular.com/recipes/" + FoodID + "/nutritionWidget.json?apiKey=c4295465101844b6bdb8ae9b78be04ee")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in

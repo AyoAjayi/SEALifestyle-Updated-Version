@@ -29,7 +29,7 @@ class PopularMealsViewController: UIViewController, UITableViewDataSource, UITab
     
    
     func loadFoodData(){
-        let url = URL(string: "https://api.spoonacular.com/recipes/search?apiKey=127eb17b57ce4adc9b64e59d0e660990&number=1000")!
+        let url = URL(string: "https://api.spoonacular.com/recipes/search?apiKey=c4295465101844b6bdb8ae9b78be04ee")!
         
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)

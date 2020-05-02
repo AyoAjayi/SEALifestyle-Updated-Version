@@ -30,7 +30,7 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     func loadData(){
         foodLabel.text = food_string[0]
-        let url = URL(string: "https://api.spoonacular.com/recipes/search?query=" + food_string[0] + "&number=100&apiKey=127eb17b57ce4adc9b64e59d0e660990")!
+        let url = URL(string: "https://api.spoonacular.com/recipes/search?query=" + food_string[0] + "&number=100&apiKey=c4295465101844b6bdb8ae9b78be04ee")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in
