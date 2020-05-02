@@ -164,11 +164,34 @@ class ImageClassificationViewController: UIViewController{
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    let foodViewController = segue.destination as! FoodViewController
-          foodViewController.food_string = food_string
+        if segue.destination is FoodViewController{
+        let foodViewController = segue.destination as! FoodViewController
+              foodViewController.food_string = food_string
 
+        }else if segue.destination is MealGridViewController{
+            let mealGridViewController = segue.destination as! MealGridViewController
+            
+        }
+        
     }
-
+    
+    
+    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    //           if segue.destination is NutritionViewController{
+    //                let nutritionViewController = segue.destination as! NutritionViewController
+    //                nutritionViewController.food = food
+    //                   nutritionViewController.baseUrlImage = baseUrlImage
+    //
+    //           } else if segue.destination is CookViewController{
+    //                   let cookViewController = segue.destination as! CookViewController
+    //                   cookViewController.food = food
+    //
+    //
+    //               }
+    //
+    //        }
+    //
+        
 
     
     
