@@ -55,7 +55,7 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
        
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "foodTablecell", for: indexPath) as! FoodCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "foodCell", for: indexPath) as! FoodCell
         let foodFacts = foodData[indexPath.row]
         cell.suggestLabel.text = foodFacts["title"] as? String
         let foodURL = foodFacts["image"] as! String

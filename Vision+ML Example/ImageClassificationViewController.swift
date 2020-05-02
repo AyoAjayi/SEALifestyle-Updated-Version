@@ -20,7 +20,6 @@ class ImageClassificationViewController: UIViewController{
     
     @IBOutlet weak var nextButton: UIButton!
     
-    
 
     // MARK: - Image Classification
     
@@ -106,8 +105,6 @@ class ImageClassificationViewController: UIViewController{
                 // Create OK button with action handler
                 let yes = UIAlertAction(title: "Yes", style: .default, handler: { (action) -> Void in
                 print("Yes button tapped")
-                
-                           
                 })
                        
                 // Create Cancel button with action handlder
