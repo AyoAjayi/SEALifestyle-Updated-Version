@@ -9,7 +9,7 @@
 import UIKit
 
 class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
-   
+    var baseUrlImage: String!
     @IBOutlet weak var tableView: UITableView!
     var food_string = [String]()
     var foodData = [[String:Any]]()
@@ -40,6 +40,7 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
             let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
             print(dataDictionary)
             self.foodData = dataDictionary["results"] as! [[String : Any]]
+            self.baseUrlImage = dataDictionary["baseUri"] as! String
             self.tableView.reloadData()
             }
 
@@ -57,9 +58,9 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = tableView.dequeueReusableCell(withIdentifier: "foodTablecell", for: indexPath) as! FoodCell
         let foodFacts = foodData[indexPath.row]
         cell.suggestLabel.text = foodFacts["title"] as? String
-        let urlString = foodFacts["image"]
-        print(urlString)
-        let url = URL(string: urlString as! String)
+        let foodURL = foodFacts["image"] as! String
+        let urlString = baseUrlImage + foodURL
+        let url = URL(string: urlString)
         if (url != nil){
             cell.foodImage.af_setImage(withURL: url!)
         }
