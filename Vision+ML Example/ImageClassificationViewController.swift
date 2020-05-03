@@ -114,7 +114,7 @@ class ImageClassificationViewController: UIViewController{
                 let alert = UIAlertController(title: "Sorry", message: "We are still working on improving our upload photo feature", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "ok", style: .default, handler: nil))
                 self.present(alert, animated: true)
-                self.nextButton.isHidden = true
+//                self.nextButton.isHidden = true
                         
                 print("No button tapped")
                 }
