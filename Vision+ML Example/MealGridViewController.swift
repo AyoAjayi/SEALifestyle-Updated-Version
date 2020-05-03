@@ -11,6 +11,7 @@
 
 import UIKit
 import AlamofireImage
+import Parse
 
 class MealGridViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate {
 
@@ -23,8 +24,7 @@ class MealGridViewController: UIViewController, UICollectionViewDelegate, UIColl
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var collectionView: UICollectionView!
     @IBOutlet var appLogo: UIImageView!
-    @IBOutlet var welcomePoster: UIImageView!
-    @IBOutlet var greetingLabel: UILabel!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,8 +87,8 @@ class MealGridViewController: UIViewController, UICollectionViewDelegate, UIColl
                                             y: self.collectionView.frame.origin.y - 400,
                                             width: self.collectionView.frame.size.width, height: self.collectionView.frame.size.height + 300)
             self.appLogo.alpha = 0
-            self.welcomePoster.alpha = 0
-            self.greetingLabel.alpha = 0
+//            self.welcomePoster.alpha = 0
+//            self.greetingLabel.alpha = 0
         })
     }
 
@@ -103,9 +103,9 @@ class MealGridViewController: UIViewController, UICollectionViewDelegate, UIColl
             self.searchBar.frame = newFrame
             self.collectionView.frame = viewFrame
 
-            self.appLogo.alpha = 1
-            self.welcomePoster.alpha = 1
-            self.greetingLabel.alpha = 1
+            self.appLogo.alpha = 2
+//            self.welcomePoster.alpha = 1
+//            self.greetingLabel.alpha = 1
         })
     }
 
@@ -166,7 +166,22 @@ class MealGridViewController: UIViewController, UICollectionViewDelegate, UIColl
     }
     
     
-    
+//    @IBAction func onLogoutButton(_ sender: Any) {
+//        PFUser.logOutInBackground(block: {(error) in
+//            if let error = error {
+//                print(error.localizedDescription)
+//            } else {
+//                print("Successful logout")
+//                let main = UIStoryboard(name: "Main", bundle: nil)
+//                    let loginViewController = main.instantiateViewController(identifier: "LoginViewController")
+//                    let appDelegate = self.view.window?.windowScene?.delegate as! AppDelegate
+//                    sceneDelegate.window?.rootViewController = loginViewController
+//
+//            }
+//        })
+//
+//
+//    }
     
 
     

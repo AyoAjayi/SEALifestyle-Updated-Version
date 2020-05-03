@@ -29,7 +29,7 @@ class NutritionViewController: UIViewController, UITableViewDataSource, UITableV
         foodImage.layer.masksToBounds = true
         foodImage.layer.cornerRadius = foodImage.bounds.width / 2
         foodImage.layer.borderWidth = 5
-        foodImage.layer.borderColor = UIColor.purple.cgColor
+        foodImage.layer.borderColor = UIColor.lightGray.cgColor
         nutrientData()
         
             

@@ -11,6 +11,7 @@ import Parse
 
 class PopularMealsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+   
     var foodData = [[String:Any]]()
     var Id: Int!
     var foodSummary: String!
@@ -23,6 +24,7 @@ class PopularMealsViewController: UIViewController, UITableViewDataSource, UITab
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+       
         
         loadFoodData()
     }
@@ -93,6 +95,7 @@ class PopularMealsViewController: UIViewController, UITableViewDataSource, UITab
         let url = URL(string: urlString)
         if (url != nil){
             cell.mealPicture.af_setImage(withURL: url!)
+           
         }
         return cell
     }

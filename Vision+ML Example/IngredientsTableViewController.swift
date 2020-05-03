@@ -28,7 +28,7 @@ class IngredientsTableViewController: UIViewController, UITableViewDelegate, UIT
      displayImage.layer.masksToBounds = true
     displayImage.layer.cornerRadius = displayImage.bounds.width / 2
      displayImage.layer.borderWidth = 4
-     displayImage.layer.borderColor = UIColor.cyan.cgColor
+     displayImage.layer.borderColor = UIColor.lightGray.cgColor
      foodLabel.text = food["title"] as? String
      
      let foodURL = food["image"] as! String

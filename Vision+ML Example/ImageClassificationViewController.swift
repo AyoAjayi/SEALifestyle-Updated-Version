@@ -92,11 +92,13 @@ class ImageClassificationViewController: UIViewController{
 //                   return String(format: "  (%.2f) %@", classification.confidence, classification.identifier)
                      return String(classification.identifier)
                 }
-                self.classificationLabel.text = "Classification:\n" + descriptions.joined(separator: "\n")
+               
+               
                 let string_data = descriptions[0]
                 let string_data_arr = string_data.characters.split{$0 == ","}.map(String.init)
                 print(string_data_arr.count)
                 self.food_string = string_data_arr
+                self.classificationLabel.text = "Classification:\n" + string_data_arr[0]
 //                print(string_data_arr[0])
 //                print(string_data_arr[1])
 //                print(string_data_arr[2])

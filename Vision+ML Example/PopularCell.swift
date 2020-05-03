@@ -7,8 +7,11 @@ class PopularCell: UITableViewCell {
     @IBOutlet weak var mealPicture: UIImageView!
     @IBOutlet weak var rating: UILabel!
     
+     
+    
     
     override func awakeFromNib() {
+        mealPicture.layer.borderColor = UIColor.cyan.cgColor
         super.awakeFromNib()
         // Initialization code
     }
