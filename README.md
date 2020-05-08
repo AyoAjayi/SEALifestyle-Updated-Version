@@ -1,10 +1,17 @@
 # SEA LIFESTYLE
 
+
+## App Narrated User Story
+
+Can be viewed here: https://www.youtube.com/watch?v=np8aVv6XARs
+
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+
 
 ## Overview
 ### Description
@@ -230,14 +237,6 @@ Preprocess photos using the Vision framework and classify them with a Core ML mo
 Here's a walkthrough of implemented user stories:
 
 <img src="http://g.recordit.co/wemNljdIyE.gif" title='Video Walkthrough' width='' alt='Video Walkthrough'/>
-
-
-## App Narrated User Story
-
-Can be viewed here: https://www.youtube.com/watch?v=np8aVv6XARs
-
-
-
 
 
 
