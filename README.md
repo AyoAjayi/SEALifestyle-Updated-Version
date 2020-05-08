@@ -232,6 +232,9 @@ Here's a walkthrough of implemented user stories:
 <img src="http://g.recordit.co/wemNljdIyE.gif" title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 
 
+## App Narrated User Story
+
+Can be viewed here: https://www.youtube.com/watch?v=np8aVv6XARs
 
 
 
