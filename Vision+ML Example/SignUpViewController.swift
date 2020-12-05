@@ -33,7 +33,7 @@ class SignUpViewController: UIViewController {
                         self.password.text?.removeAll()
                     } else {
         
-                        print("Error \(error?.localizedDescription)")
+                        print("Error \(String(describing: error?.localizedDescription))")
                     }
                 }
     }
